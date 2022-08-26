@@ -1,0 +1,21 @@
+.button {
+    cursor: pointer;
+    margin-left: auto;
+    height: 3rem;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 0.625rem;
+    transition: all .3s ease;
+}
+
+.button:hover{
+    color: black;
+}
+
+

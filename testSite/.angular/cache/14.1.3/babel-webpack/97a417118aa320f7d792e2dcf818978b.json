@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const navbarData = [{\n  routeLink: 'home',\n  icon: 'fas fa-home',\n  label: 'Home'\n}, {\n  routeLink: 'pages',\n  icon: 'fas fa-file',\n  label: 'Dokumente'\n}];","map":null,"metadata":{},"sourceType":"module"}

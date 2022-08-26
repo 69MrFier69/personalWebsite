@@ -1,0 +1,32 @@
+<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed': ''">
+    <div class="logo-container">
+        <button class="logo" (click)="toggleCollapse()">JF</button>
+        <div class="logo-text" @fadeInOut *ngIf="collapsed">Willkommen</div>
+        <button class="btn-close" @rotate *ngIf="collapsed" (click)="closeSidenav()">
+            <i class="fas fa-xmark"></i>
+        </button>
+    </div>
+    <ul class="sidenav-nav">
+        <li class="sidenav-nav-item" *ngFor="let data of navData">
+            <a class="sidenav-nav-link" [routerLink]="[data.routeLink]" routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact: true}">
+                <i class="sidenav-link-icon text-2xl" [class]="data.icon"></i>
+                <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">
+                    {{data.label}}
+                </span>
+            </a>
+        </li>
+        <li class="sidenav-nav-item">
+            <a class="sidenav-nav-link">
+                <i class="sidenav-link-icon text-2xl">
+                    <i (click)="loginWithRedirect()" *ngIf="(auth.isAuthenticated$ |async) == false" class="fas fa-xmark"></i>
+                    <i (click)="logout()" *ngIf="auth.isAuthenticated$ |async" class="fas fa-check"></i>
+                </i>
+                <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">
+                    <app-login-button *ngIf="(auth.isAuthenticated$ |async) == false"></app-login-button>
+                    <app-logout-button *ngIf="auth.isAuthenticated$ |async"></app-logout-button>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
