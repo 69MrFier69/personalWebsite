@@ -44,6 +44,8 @@ export const pdfdocData = [
         download: 'uek105.pdf',
         heading: 'ÜK-105'
     },
+
+    /*
     {
         src: 'assets/abstacts/abstacts_javaspiel.pdf',
         download: 'abstacts_javaspiel.pdf',
@@ -64,4 +66,6 @@ export const pdfdocData = [
         download: 'abstacts_webseite.pdf',
         heading: 'Abstact Webseite'
     },
+
+    */
 ];

@@ -24,6 +24,8 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProgressBarsComponent } from './progress-bars/progress-bars.component';
 import { TerminalWindowComponent } from './terminal-window/terminal-window.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { TerminalWindowComponent } from './terminal-window/terminal-window.compo
     LoginButtonComponent,
     LogoutButtonComponent,
     ProgressBarsComponent,
-    TerminalWindowComponent
+    TerminalWindowComponent,
+    FooterComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
