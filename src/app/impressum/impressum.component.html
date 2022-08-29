@@ -1,1 +1,40 @@
 <p class="p-10">impressum isnt quite ready ;)</p>
+
+<div>
+    <div class="xl:w-3/4 2xl:w-4/5 w-full">
+        <div class="px-4 md:px-10 py-4 md:py-7">
+            <div class="sm:flex items-center justify-between">
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold leading-normal text-gray-800">Lizenzen</p>
+                <div class="mt-4 sm:mt-0">
+                </div>
+            </div>
+        </div>
+        <div class="bg-white px-4 md:px-10 pb-5">
+            <div class="overflow-x-auto">
+                <table class="w-full whitespace-nowrap">
+                    <tbody>
+                        <tr class="text-sm leading-none text-gray-600 h-16" *ngFor="let data of licenseData">
+                            <td class="w-1/2">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gray-700 rounded-sm flex items-center justify-center">
+                                        <p class="text-xs font-bold leading-3 text-white">{{data.icon}}</p>
+                                    </div>
+                                    <div class="pl-2">
+                                        <p class="text-sm font-medium leading-none text-gray-800">{{data.name}}</p>
+                                        <p class="text-xs leading-3 text-gray-600 mt-2">{{data.use}}</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="pl-16">
+                                <p>{{data.license}}</p>
+                            </td>
+                            <td>
+                                <p class="pl-16">{{data.copyright}}</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

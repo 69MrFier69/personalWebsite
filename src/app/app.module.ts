@@ -26,6 +26,7 @@ import { ProgressBarsComponent } from './progress-bars/progress-bars.component';
 import { TerminalWindowComponent } from './terminal-window/terminal-window.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { CookieComponent } from './cookie/cookie.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ImpressumComponent } from './impressum/impressum.component';
     ProgressBarsComponent,
     TerminalWindowComponent,
     FooterComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    CookieComponent
   ],
   imports: [
     BrowserModule,
