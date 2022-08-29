@@ -17,6 +17,8 @@ export class PagesComponent implements OnInit {
   
   //pdf sources
   pdfData = pdfdocData;
+  srcDokumente = "assets/dokumenteJannFiedler.zip"
+  download = "dokumenteJannFiedler.zip"
 
   constructor (public auth: AuthService){}
 

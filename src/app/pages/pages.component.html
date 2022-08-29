@@ -1,12 +1,15 @@
 <div class="card-body">
     <accordion [isAnimated]="true" [closeOthers]="true" class="items-center flex">
-        <p class="text-3xl sm:text-4xl md:text-5xl text-center uppercase">Persönliche Dokumente</p>
+        <p class="text-3xl sm:text-4xl md:text-5xl text-center uppercase">Persönliche Dokumente
+            <a [download]="download" [href]="srcDokumente"><i class="fas fa-download"></i></a>
+        </p>
+        
+
         <accordion-group class="w-full md:w-3/4 mx-auto" *ngFor="let data of pdfData">
             <span accordion-heading >
                 {{data.heading}}
             </span>
             <span accordion-heading class="float-right">
-                <a [download]="[data.download]" [href]="[data.src]"><i class="fas fa-download"></i></a>
                 <i class="fas fa-angle-down" ></i>
             </span>
 
