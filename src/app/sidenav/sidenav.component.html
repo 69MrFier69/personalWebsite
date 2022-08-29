@@ -19,8 +19,8 @@
         <li class="sidenav-nav-item">
             <a class="sidenav-nav-link">
                 <i class="sidenav-link-icon text-2xl">
-                    <i (click)="loginWithRedirect()" *ngIf="(auth.isAuthenticated$ |async) == false" class="fas fa-xmark"></i>
-                    <i (click)="logout()" *ngIf="auth.isAuthenticated$ |async" class="fas fa-check"></i>
+                    <i (click)="loginWithRedirect()" *ngIf="(auth.isAuthenticated$ |async) == false" class="fas fa-arrow-right-to-bracket"></i>
+                    <i (click)="logout()" *ngIf="auth.isAuthenticated$ |async" class="fas fa-arrow-right-from-bracket"></i>
                 </i>
                 <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">
                     <app-login-button *ngIf="(auth.isAuthenticated$ |async) == false"></app-login-button>
