@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-terminal-window',
   templateUrl: './terminal-window.component.html',
@@ -11,5 +12,4 @@ export class TerminalWindowComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
