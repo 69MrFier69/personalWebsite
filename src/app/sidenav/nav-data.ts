@@ -9,4 +9,9 @@ export const navbarData = [
         icon: 'fas fa-file',
         label: 'Dokumente'
     },
+        {
+        routeLink: 'technologien',
+        icon: 'fas fa-wrench',
+        label: 'Technologien'
+    },
 ];

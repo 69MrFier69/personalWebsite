@@ -28,6 +28,7 @@
                 </span>
             </a>
         </li>
-        <app-footer @fadeInOut *ngIf="collapsed" class="fixed bottom-0"></app-footer>
+        <app-footer @fadeInOut *ngIf="collapsed" class="fixed bottom-0 mt-100"></app-footer>
     </ul>
+    <div class="container h-full w-auto" (click)="toggleCollapse()"></div>
 </div>

@@ -6,11 +6,13 @@ import { PagesComponent } from './pages/pages.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 
 import { AuthGuard } from '@auth0/auth0-angular';
+import { TechnologienComponent } from './technologien/technologien.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: homeComponent},
   {path: 'pages', component: PagesComponent, canActivate: [AuthGuard]},
+  {path: 'technologien', component: TechnologienComponent},
 
   {path: 'impressum', component: ImpressumComponent}
 ];

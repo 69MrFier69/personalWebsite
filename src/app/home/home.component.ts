@@ -9,6 +9,7 @@ export class homeComponent implements OnInit {
 
   bildNatur = "assets/images/bild_natur.png"
   bildHobbies = "assets/images/bild_hobbies.png"
+  bildPortrait = "assets/images/bild_portrait.png"
 
   constructor() { }
 

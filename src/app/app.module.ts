@@ -27,6 +27,7 @@ import { TerminalWindowComponent } from './terminal-window/terminal-window.compo
 import { FooterComponent } from './footer/footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { CookieComponent } from './cookie/cookie.component';
+import { TechnologienComponent } from './technologien/technologien.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { CookieComponent } from './cookie/cookie.component';
     TerminalWindowComponent,
     FooterComponent,
     ImpressumComponent,
-    CookieComponent
+    CookieComponent,
+    TechnologienComponent
   ],
   imports: [
     BrowserModule,
