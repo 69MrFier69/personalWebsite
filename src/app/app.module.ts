@@ -28,6 +28,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { CookieComponent } from './cookie/cookie.component';
 import { TechnologienComponent } from './technologien/technologien.component';
+import { RoadmapComponent } from './roadmap/roadmap.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { TechnologienComponent } from './technologien/technologien.component';
     FooterComponent,
     ImpressumComponent,
     CookieComponent,
-    TechnologienComponent
+    TechnologienComponent,
+    RoadmapComponent
   ],
   imports: [
     BrowserModule,
