@@ -9,9 +9,6 @@ export const navbarData = [
         icon: 'fas fa-file',
         label: 'Dokumente'
     },
-];
-
-/*
     {
         routeLink: 'roadmap',
         icon: 'fas fa-lightbulb',
@@ -22,4 +19,8 @@ export const navbarData = [
         icon: 'fas fa-wrench',
         label: 'Technologien'
     },
+];
+
+/*
+
 */

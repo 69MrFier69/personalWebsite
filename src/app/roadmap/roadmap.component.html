@@ -1,13 +1,24 @@
-<div class="timeline">
-    <ul *ngFor="let data of roadmapData">
-        <li>
-            <span>{{data.header}}</span>
-            <div class="content">
-                <h3>What Is Lorem Ipsum?</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                </p>
-            </div>
-        </li>
-    </ul>
+<div class="timeline w-full">
+    <div class="font-bold text-3xl sm:text-4xl md:text-5xl underline uppercase">
+        Roadmap
+    </div>
+    <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
+        <div class="flex flex-col justify-center mb-8 sm:w-1/2 md:w-7/12 sm:pr-16">
+            <ul *ngFor="let data of roadmapData">
+                <li>
+                    <span>{{data.header}}</span>
+                    <div class="content">
+                        <h3>{{data.middleText}}</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
+            <img [src]="bild_idea">
+        </div>
+    </div>
+
+    <div class="py-8 text-2xl text-black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem voluptate. Officiis optio repudiandae laboriosam unde, tempore nihil eum, at ab saepe cupiditate id a illo. Temporibus reprehenderit aperiam dolor!
+    </div>
 </div>

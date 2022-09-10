@@ -11,6 +11,8 @@ export class RoadmapComponent implements OnInit {
 
   roadmapData = roadmapInfoData;
 
+  bild_idea = "assets/images/bild_idea.png"
+
   constructor() { }
 
   ngOnInit(): void {
