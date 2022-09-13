@@ -4,6 +4,10 @@ export const roadmapInfoData = [
         middleText: 'Denn ich bin mit den momentanen Texten noch nicht ganz zufrieden. Ausserdem findet man immer noch einen Fehler ;)'
     },  
     {
+        header: 'Animationen einbauen',
+        middleText: 'Animationen können eine Webseite stark verbessern und sie zum "Leben" erwecken. Texte und einen Hintergrund sind die perfekten Beispiele dafür.'
+    },  
+    {
         header: 'Toaster',
         middleText: 'Ich möchte noch Toaster-Mitteilungen hinzufügen, welche dem Benutzer nützliche Informationen mitteilen können. '
     },  
