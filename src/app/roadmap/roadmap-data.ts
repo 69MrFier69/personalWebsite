@@ -9,19 +9,24 @@ export const roadmapInfoData = [
     },  
     {
         header: 'Technologien',
-        middleText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem voluptate. Officiis optio repudiandae laboriosam unde, tempore nihil eum, at ab saepe cupiditate id a illo. Temporibus reprehenderit aperiam dolor!'
+        middleText: 'Es sollen noch alle nennenswerten "Technologien" von dieser Webseite beschrieben werden. Dadurch kann man verstehen, wie die Webseite erstellt wurde. '
     },
     {
         header: 'Abstacts und Projekte',
-        middleText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem voluptate. Officiis optio repudiandae laboriosam unde, tempore nihil eum, at ab saepe cupiditate id a illo. Temporibus reprehenderit aperiam dolor!'
+        middleText: 'Projekte und Abstracts von der Gibb, den Ük\'s und Private Projekte sollen noch einen eigenen Abschnitt bekommen. Ich möchte sie aber jedoch noch überarbeiten da sich mein können über die Jahre verbessert hat.'
     },   
     {
         header: 'Design choice',
-        middleText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem voluptate. Officiis optio repudiandae laboriosam unde, tempore nihil eum, at ab saepe cupiditate id a illo. Temporibus reprehenderit aperiam dolor!'
+        middleText: 'Jede gute Webseite sollte einen Darkmode besitzten, auch meine! Deswegen werden noch ein paar Farboptionen der Webseite hinzugefügt. Damit werden die Augen nicht überlastet.'
     },  
     {
         header: 'Hintergrundmusik',
-        middleText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem voluptate. Officiis optio repudiandae laboriosam unde, tempore nihil eum, at ab saepe cupiditate id a illo. Temporibus reprehenderit aperiam dolor!'
-    },  
+        middleText: 'In meiner Freizeit höre ich fast immer Musik. Wenn ich lerne, auf Reisen, wärend dem Sport oder beim Zeichnen. Um so mehr möchte ich auch Musik auf meiner Webseite einbauen.'
+    },   
+    {
+        header: 'Dual Language',
+        middleText: 'Da ich jetzt schon viel auf English benutzte, auch auf dieser Webseite, ist es doch eine gute Idee noch meine Texte auf English zu schreiben. Dadurch ist meine Webseite nicht nur für Deutschsprachige zugänglich.'
+    },   
 ]
+
 

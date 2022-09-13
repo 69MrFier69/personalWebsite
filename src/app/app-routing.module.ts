@@ -14,7 +14,7 @@ const routes: Routes = [
   {path: 'home', component: homeComponent},
   {path: 'pages', component: PagesComponent, canActivate: [AuthGuard]},
   {path: 'technologien', component: TechnologienComponent},
-  {path: 'roadmap', component: RoadmapComponent},
+  {path: 'roadmap', component: RoadmapComponent, canActivate: [AuthGuard]},
   {path: 'impressum', component: ImpressumComponent}
 ];
 
